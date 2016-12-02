@@ -1,18 +1,8 @@
+#include "grade.h"
 #include <stdio.h>
 
-#define MAX_NAME 20
-#define SUBJECTS 3
-#define STUDENTS 3
 
-typedef struct grade
-{
-	char name[MAX_NAME];
-	int score[SUBJECTS];
-	int total;
-	double average;
-}Grade;
-
-void main()
+void main_grade()
 {
 	char* subjects[SUBJECTS]={"국어", "영어", "수학"};
 	Grade grd[STUDENTS];

@@ -64,15 +64,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dynamicMemory.cpp" />
-    <ClCompile Include="grade.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="grade.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="starStack.cpp" />
     <ClCompile Include="turboc.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dynamicMemory.h" />
+    <ClInclude Include="grade.h" />
     <ClInclude Include="starStack.h" />
     <ClInclude Include="turboc.h" />
   </ItemGroup>
