@@ -61,8 +61,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="history.txt" />
+    <None Include="soruce.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BlackBox.cpp" />
     <ClCompile Include="dynamicMemory.cpp" />
     <ClCompile Include="grade.cpp" />
     <ClCompile Include="main.cpp" />
@@ -70,6 +72,7 @@
     <ClCompile Include="turboc.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BlackBox.h" />
     <ClInclude Include="dynamicMemory.h" />
     <ClInclude Include="grade.h" />
     <ClInclude Include="starStack.h" />
