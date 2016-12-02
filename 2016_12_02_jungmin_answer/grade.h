@@ -1,7 +1,7 @@
 #pragma once
 #define MAX_NAME 20
 #define SUBJECTS 3
-#define STUDENTS 3
+//#define STUDENTS 3
 
 typedef struct grade
 {
@@ -10,3 +10,5 @@ typedef struct grade
 	int total;
 	double average;
 }Grade;
+
+void grade_main();
