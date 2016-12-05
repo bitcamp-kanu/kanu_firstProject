@@ -26,3 +26,14 @@
 	3.1 비트 반전을 이용.
 	3.2 XOR 과 키값을 이용.
 		키값을 1byte 키값만 허용한다.
+
+
+테스트 명령어.
+[반전 실행 테스트 명려어]
+ -revT C:\\soruce.txt target.txt
+ [XOR 실행 테스트 명려어]
+ -excT C:\\soruce.txt target.txt A
+
+
+// -revT [source] [target]       -반전을 이용한 암호 복호화
+// -excT [source] [target] [key] -XOR 을 이용한 암호 복호화
