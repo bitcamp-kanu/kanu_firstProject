@@ -28,7 +28,7 @@ void main(int argc,char** argv)
 				nCnt = ReverseEncodeDecode(strSource,strTarget);
 				printf("암호문자(REV) 갯수 [%d].\n",nCnt);
 				if(strlen(cmd) == 5)
-				{
+				{h
 					nCnt = ReverseEncodeDecode(strTarget,"REV복호.txt");
 					printf("복호문자(REV) 갯수 [%d].\n",nCnt);
 				}
